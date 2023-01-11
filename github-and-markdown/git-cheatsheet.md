@@ -16,3 +16,14 @@
 | `git remote add origin git@github.com:GitHubUsername/repository-name.git` | point to a specific remote repo on github.com         |
 | `git branch -M main`                                                      | ?                                                     |
 | `git push -u origin main`                                                 | upload or "push" local files from repo to remote repo |
+| `git clone <ssh link>`                                                    | download repository from github                       |
+
+## Git branch commands
+
+| command                      | functionality                        |
+| ---------------------------- | ------------------------------------ |
+| `git switch -c <branchname>` | create a new branch and switch to it |
+| `git switch <branchname>`    | switch branches                      |
+| `git branch`                 | list your branches                   |
+| `git branch -a`              | list all branches (local and remote) |
+| `git branch -d <branchname>` | delete a branch                      |
