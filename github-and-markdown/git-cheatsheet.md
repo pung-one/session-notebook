@@ -9,6 +9,7 @@
 | `git restore .`           | return to state of last commit with entire repo  |
 | `git restore <filename>`  | return to state of last commit with file         |
 
+
 ## Connecting to a remote repository
 
 | Git command                                                               | Git task                                              |
@@ -17,6 +18,8 @@
 | `git branch -M main`                                                      | ?                                                     |
 | `git push -u origin main`                                                 | upload or "push" local files from repo to remote repo |
 | `git clone <ssh link>`                                                    | download repository from github                       |
+| `git pull`                                                                | upload the working branch to github repo              |
+
 
 ## Git branch commands
 
@@ -27,3 +30,4 @@
 | `git branch`                 | list your branches                   |
 | `git branch -a`              | list all branches (local and remote) |
 | `git branch -d <branchname>` | delete a branch                      |
+
